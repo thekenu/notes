@@ -28,5 +28,7 @@ for (int j = 0; j < 3; j++) {
 ```
 
 References:
-[1] https://en.wikipedia.org/wiki/Loop_interchange#The_utility_of_loop_interchange 
-[2] https://developers.redhat.com/blog/2014/03/10/determining-whether-an-application-has-poor-cache-performance-2/
+
+- https://en.wikipedia.org/wiki/Loop_interchange#The_utility_of_loop_interchange
+
+- https://developers.redhat.com/blog/2014/03/10/determining-whether-an-application-has-poor-cache-performance-2/
