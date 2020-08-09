@@ -2,10 +2,12 @@ A 2D array in C is inherently one-dimensional, which means the order in which th
 
 Consider a 3 x 3 matrix (e.g. `int arr[3][3]`). Its memory layout looks like
 
+```
 Low Address  --->  High Address
 [0][0] [0][1] [0][2] [1][0] [1][1] [1][2] [2][0] [2][1] [2][2]
+```
 
-Note that this memory layout is called row-major order, which is an instrinsic property of the C language. On the contrary, Fortran uses column-major order.
+Note that this memory layout is called row-major order, which is an intrinsic property of the C language. On the contrary, Fortran uses column-major order.
 
 The following loop accesses the array using the order in which the elements are laid out in memory. This reduces cache misses.
 
